@@ -150,6 +150,10 @@ public class SchoolStudyCalculator {
     public static void printData(List<Map<String, Object>> dataList) {
         for (Map<String, Object> data : dataList) {
             System.out.println(data);
-        }
+        } 
+
+        public static void printData(List<Map<String, Object>> dataList) {
+            for (Map<String, Object> data : dataList) {
+                System.out.println(data);
     }
 }
